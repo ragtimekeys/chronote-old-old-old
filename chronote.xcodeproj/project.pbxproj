@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0604FA502431871B0085AD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA4F2431871B0085AD4E /* AppDelegate.swift */; };
+		0604FA522431871B0085AD4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA512431871B0085AD4E /* SceneDelegate.swift */; };
+		0604FA542431871B0085AD4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA532431871B0085AD4E /* ContentView.swift */; };
+		0604FA562431871C0085AD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA552431871C0085AD4E /* Assets.xcassets */; };
+		0604FA592431871C0085AD4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA582431871C0085AD4E /* Preview Assets.xcassets */; };
+		0604FA5C2431871C0085AD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA5A2431871C0085AD4E /* LaunchScreen.storyboard */; };
+		0604FA612431871D0085AD4E /* chronote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0604FA602431871D0085AD4E /* chronote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0604FA672431871D0085AD4E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA652431871D0085AD4E /* Interface.storyboard */; };
+		0604FA692431871D0085AD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA682431871D0085AD4E /* Assets.xcassets */; };
+		0604FA702431871D0085AD4E /* chronote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0604FA6F2431871D0085AD4E /* chronote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0604FA752431871D0085AD4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA742431871D0085AD4E /* ContentView.swift */; };
+		0604FA772431871D0085AD4E /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA762431871D0085AD4E /* HostingController.swift */; };
+		0604FA792431871D0085AD4E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA782431871D0085AD4E /* ExtensionDelegate.swift */; };
+		0604FA7B2431871D0085AD4E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA7A2431871D0085AD4E /* NotificationController.swift */; };
+		0604FA7D2431871D0085AD4E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA7C2431871D0085AD4E /* NotificationView.swift */; };
+		0604FA7F2431871D0085AD4E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA7E2431871D0085AD4E /* ComplicationController.swift */; };
+		0604FA812431871E0085AD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA802431871E0085AD4E /* Assets.xcassets */; };
+		0604FA842431871E0085AD4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA832431871E0085AD4E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0604FA622431871D0085AD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0604FA442431871B0085AD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0604FA5F2431871D0085AD4E;
+			remoteInfo = "chronote WatchKit App";
+		};
+		0604FA712431871D0085AD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0604FA442431871B0085AD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0604FA6E2431871D0085AD4E;
+			remoteInfo = "chronote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0604FA8C2431871E0085AD4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0604FA702431871D0085AD4E /* chronote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604FA902431871E0085AD4E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0604FA612431871D0085AD4E /* chronote WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0604FA4C2431871B0085AD4E /* chronote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chronote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604FA4F2431871B0085AD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0604FA512431871B0085AD4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0604FA532431871B0085AD4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0604FA552431871C0085AD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0604FA582431871C0085AD4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0604FA5B2431871C0085AD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0604FA5D2431871C0085AD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0604FA602431871D0085AD4E /* chronote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chronote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604FA662431871D0085AD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0604FA682431871D0085AD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0604FA6A2431871D0085AD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0604FA6F2431871D0085AD4E /* chronote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "chronote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604FA742431871D0085AD4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0604FA762431871D0085AD4E /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		0604FA782431871D0085AD4E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0604FA7A2431871D0085AD4E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0604FA7C2431871D0085AD4E /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0604FA7E2431871D0085AD4E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0604FA802431871E0085AD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0604FA832431871E0085AD4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0604FA852431871E0085AD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0604FA862431871E0085AD4E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0604FA492431871B0085AD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604FA6C2431871D0085AD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0604FA432431871B0085AD4E = {
+			isa = PBXGroup;
+			children = (
+				0604FA4E2431871B0085AD4E /* chronote */,
+				0604FA642431871D0085AD4E /* chronote WatchKit App */,
+				0604FA732431871D0085AD4E /* chronote WatchKit Extension */,
+				0604FA4D2431871B0085AD4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0604FA4D2431871B0085AD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0604FA4C2431871B0085AD4E /* chronote.app */,
+				0604FA602431871D0085AD4E /* chronote WatchKit App.app */,
+				0604FA6F2431871D0085AD4E /* chronote WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0604FA4E2431871B0085AD4E /* chronote */ = {
+			isa = PBXGroup;
+			children = (
+				0604FA4F2431871B0085AD4E /* AppDelegate.swift */,
+				0604FA512431871B0085AD4E /* SceneDelegate.swift */,
+				0604FA532431871B0085AD4E /* ContentView.swift */,
+				0604FA552431871C0085AD4E /* Assets.xcassets */,
+				0604FA5A2431871C0085AD4E /* LaunchScreen.storyboard */,
+				0604FA5D2431871C0085AD4E /* Info.plist */,
+				0604FA572431871C0085AD4E /* Preview Content */,
+			);
+			path = chronote;
+			sourceTree = "<group>";
+		};
+		0604FA572431871C0085AD4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0604FA582431871C0085AD4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0604FA642431871D0085AD4E /* chronote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0604FA652431871D0085AD4E /* Interface.storyboard */,
+				0604FA682431871D0085AD4E /* Assets.xcassets */,
+				0604FA6A2431871D0085AD4E /* Info.plist */,
+			);
+			path = "chronote WatchKit App";
+			sourceTree = "<group>";
+		};
+		0604FA732431871D0085AD4E /* chronote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0604FA742431871D0085AD4E /* ContentView.swift */,
+				0604FA762431871D0085AD4E /* HostingController.swift */,
+				0604FA782431871D0085AD4E /* ExtensionDelegate.swift */,
+				0604FA7A2431871D0085AD4E /* NotificationController.swift */,
+				0604FA7C2431871D0085AD4E /* NotificationView.swift */,
+				0604FA7E2431871D0085AD4E /* ComplicationController.swift */,
+				0604FA802431871E0085AD4E /* Assets.xcassets */,
+				0604FA852431871E0085AD4E /* Info.plist */,
+				0604FA862431871E0085AD4E /* PushNotificationPayload.apns */,
+				0604FA822431871E0085AD4E /* Preview Content */,
+			);
+			path = "chronote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0604FA822431871E0085AD4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0604FA832431871E0085AD4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0604FA4B2431871B0085AD4E /* chronote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604FA912431871E0085AD4E /* Build configuration list for PBXNativeTarget "chronote" */;
+			buildPhases = (
+				0604FA482431871B0085AD4E /* Sources */,
+				0604FA492431871B0085AD4E /* Frameworks */,
+				0604FA4A2431871B0085AD4E /* Resources */,
+				0604FA902431871E0085AD4E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0604FA632431871D0085AD4E /* PBXTargetDependency */,
+			);
+			name = chronote;
+			productName = chronote;
+			productReference = 0604FA4C2431871B0085AD4E /* chronote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0604FA5F2431871D0085AD4E /* chronote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604FA8D2431871E0085AD4E /* Build configuration list for PBXNativeTarget "chronote WatchKit App" */;
+			buildPhases = (
+				0604FA5E2431871D0085AD4E /* Resources */,
+				0604FA8C2431871E0085AD4E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0604FA722431871D0085AD4E /* PBXTargetDependency */,
+			);
+			name = "chronote WatchKit App";
+			productName = "chronote WatchKit App";
+			productReference = 0604FA602431871D0085AD4E /* chronote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0604FA6E2431871D0085AD4E /* chronote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604FA892431871E0085AD4E /* Build configuration list for PBXNativeTarget "chronote WatchKit Extension" */;
+			buildPhases = (
+				0604FA6B2431871D0085AD4E /* Sources */,
+				0604FA6C2431871D0085AD4E /* Frameworks */,
+				0604FA6D2431871D0085AD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chronote WatchKit Extension";
+			productName = "chronote WatchKit Extension";
+			productReference = 0604FA6F2431871D0085AD4E /* chronote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0604FA442431871B0085AD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jimmy Granger";
+				TargetAttributes = {
+					0604FA4B2431871B0085AD4E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0604FA5F2431871D0085AD4E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0604FA6E2431871D0085AD4E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0604FA472431871B0085AD4E /* Build configuration list for PBXProject "chronote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0604FA432431871B0085AD4E;
+			productRefGroup = 0604FA4D2431871B0085AD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0604FA4B2431871B0085AD4E /* chronote */,
+				0604FA5F2431871D0085AD4E /* chronote WatchKit App */,
+				0604FA6E2431871D0085AD4E /* chronote WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0604FA4A2431871B0085AD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604FA5C2431871C0085AD4E /* LaunchScreen.storyboard in Resources */,
+				0604FA592431871C0085AD4E /* Preview Assets.xcassets in Resources */,
+				0604FA562431871C0085AD4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604FA5E2431871D0085AD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604FA692431871D0085AD4E /* Assets.xcassets in Resources */,
+				0604FA672431871D0085AD4E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604FA6D2431871D0085AD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604FA842431871E0085AD4E /* Preview Assets.xcassets in Resources */,
+				0604FA812431871E0085AD4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0604FA482431871B0085AD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604FA502431871B0085AD4E /* AppDelegate.swift in Sources */,
+				0604FA522431871B0085AD4E /* SceneDelegate.swift in Sources */,
+				0604FA542431871B0085AD4E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604FA6B2431871D0085AD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604FA772431871D0085AD4E /* HostingController.swift in Sources */,
+				0604FA752431871D0085AD4E /* ContentView.swift in Sources */,
+				0604FA7B2431871D0085AD4E /* NotificationController.swift in Sources */,
+				0604FA792431871D0085AD4E /* ExtensionDelegate.swift in Sources */,
+				0604FA7D2431871D0085AD4E /* NotificationView.swift in Sources */,
+				0604FA7F2431871D0085AD4E /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0604FA632431871D0085AD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0604FA5F2431871D0085AD4E /* chronote WatchKit App */;
+			targetProxy = 0604FA622431871D0085AD4E /* PBXContainerItemProxy */;
+		};
+		0604FA722431871D0085AD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0604FA6E2431871D0085AD4E /* chronote WatchKit Extension */;
+			targetProxy = 0604FA712431871D0085AD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0604FA5A2431871C0085AD4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604FA5B2431871C0085AD4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0604FA652431871D0085AD4E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604FA662431871D0085AD4E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0604FA872431871E0085AD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0604FA882431871E0085AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0604FA8A2431871E0085AD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"chronote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = CJCBD64FW3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "chronote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		0604FA8B2431871E0085AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"chronote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = CJCBD64FW3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "chronote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		0604FA8E2431871E0085AD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJCBD64FW3;
+				IBSC_MODULE = chronote_WatchKit_Extension;
+				INFOPLIST_FILE = "chronote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		0604FA8F2431871E0085AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJCBD64FW3;
+				IBSC_MODULE = chronote_WatchKit_Extension;
+				INFOPLIST_FILE = "chronote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		0604FA922431871E0085AD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"chronote/Preview Content\"";
+				DEVELOPMENT_TEAM = CJCBD64FW3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = chronote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0604FA932431871E0085AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"chronote/Preview Content\"";
+				DEVELOPMENT_TEAM = CJCBD64FW3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = chronote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0604FA472431871B0085AD4E /* Build configuration list for PBXProject "chronote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604FA872431871E0085AD4E /* Debug */,
+				0604FA882431871E0085AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604FA892431871E0085AD4E /* Build configuration list for PBXNativeTarget "chronote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604FA8A2431871E0085AD4E /* Debug */,
+				0604FA8B2431871E0085AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604FA8D2431871E0085AD4E /* Build configuration list for PBXNativeTarget "chronote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604FA8E2431871E0085AD4E /* Debug */,
+				0604FA8F2431871E0085AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604FA912431871E0085AD4E /* Build configuration list for PBXNativeTarget "chronote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604FA922431871E0085AD4E /* Debug */,
+				0604FA932431871E0085AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0604FA442431871B0085AD4E /* Project object */;
+}
