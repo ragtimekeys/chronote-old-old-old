@@ -11,12 +11,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
-            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
             Text("Welcome ")
                 .font(.title)
                 .multilineTextAlignment(.center)
-        }
-        .padding()
+        }.padding()
     }
 }
 

@@ -93,6 +93,7 @@
 		0604FA832431871E0085AD4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0604FA852431871E0085AD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0604FA862431871E0085AD4E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		06992B9A2457804E0099E88D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		0604FA432431871B0085AD4E = {
 			isa = PBXGroup;
 			children = (
+				06992B9A2457804E0099E88D /* README.md */,
 				0604FA4E2431871B0085AD4E /* chronote */,
 				0604FA642431871D0085AD4E /* chronote WatchKit App */,
 				0604FA732431871D0085AD4E /* chronote WatchKit Extension */,
