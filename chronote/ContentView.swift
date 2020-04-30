@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
-            Text("Welcome ")
+            Text("cj isasuiu ")
                 .font(.title)
                 .multilineTextAlignment(.center)
         }.padding()

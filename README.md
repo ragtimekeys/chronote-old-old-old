@@ -77,9 +77,6 @@ Yasuho definitely will have to glance at the time at least once while getting re
 Takeaway:
 Why not just have pleasant sounding alarms every few minutes to remind you of what time it is?
 
-Yasuho is also Japanese. That means she is Asian. That means she is hard working and does not have room 
-for distractions in her day
-
 Problem:
 Yasuho does wear a watch, but in the event that she wants to check her phone to know the time, every time you
 unlock your phone is a chance to be distracted by your phone then go down a rabbit hole
