@@ -7,8 +7,10 @@
 //
 
 import WatchKit
+import AVFoundation
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
+  var audioPlayer = AVAudioPlayer()
 
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
@@ -16,6 +18,18 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidBecomeActive() {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
+      let sound = NSDataAsset(name: "quack")!
+      do {
+        audioPlayer = try AVAudioPlayer(data: sound.data)
+        
+        
+      } catch {
+        print(error)
+      }
+      _ = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
+        self.audioPlayer.play()
+      }
     }
 
     func applicationWillResignActive() {

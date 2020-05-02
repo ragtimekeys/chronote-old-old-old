@@ -25,9 +25,6 @@
 		0604FA7F2431871D0085AD4E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604FA7E2431871D0085AD4E /* ComplicationController.swift */; };
 		0604FA812431871E0085AD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA802431871E0085AD4E /* Assets.xcassets */; };
 		0604FA842431871E0085AD4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604FA832431871E0085AD4E /* Preview Assets.xcassets */; };
-		069E9A3D245A806100E933C0 /* GlobalAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069E9A3C245A806100E933C0 /* GlobalAssets.xcassets */; };
-		069E9A3E245A806100E933C0 /* GlobalAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069E9A3C245A806100E933C0 /* GlobalAssets.xcassets */; };
-		069E9A3F245A806100E933C0 /* GlobalAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069E9A3C245A806100E933C0 /* GlobalAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +94,6 @@
 		0604FA852431871E0085AD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0604FA862431871E0085AD4E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		06992B9A2457804E0099E88D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		069E9A3C245A806100E933C0 /* GlobalAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GlobalAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +117,6 @@
 		0604FA432431871B0085AD4E = {
 			isa = PBXGroup;
 			children = (
-				069E9A3C245A806100E933C0 /* GlobalAssets.xcassets */,
 				06992B9A2457804E0099E88D /* README.md */,
 				0604FA4E2431871B0085AD4E /* chronote */,
 				0604FA642431871D0085AD4E /* chronote WatchKit App */,
@@ -301,7 +296,6 @@
 			files = (
 				0604FA5C2431871C0085AD4E /* LaunchScreen.storyboard in Resources */,
 				0604FA592431871C0085AD4E /* Preview Assets.xcassets in Resources */,
-				069E9A3D245A806100E933C0 /* GlobalAssets.xcassets in Resources */,
 				0604FA562431871C0085AD4E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +306,6 @@
 			files = (
 				0604FA692431871D0085AD4E /* Assets.xcassets in Resources */,
 				0604FA672431871D0085AD4E /* Interface.storyboard in Resources */,
-				069E9A3E245A806100E933C0 /* GlobalAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +315,6 @@
 			files = (
 				0604FA842431871E0085AD4E /* Preview Assets.xcassets in Resources */,
 				0604FA812431871E0085AD4E /* Assets.xcassets in Resources */,
-				069E9A3F245A806100E933C0 /* GlobalAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "assets chronote/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "chronote/Preview\\ Content";
 				DEVELOPMENT_TEAM = CJCBD64FW3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = chronote/Info.plist;
@@ -612,7 +604,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "assets chronote/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "chronote/Preview\\ Content";
 				DEVELOPMENT_TEAM = CJCBD64FW3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = chronote/Info.plist;
