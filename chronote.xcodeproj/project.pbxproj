@@ -70,7 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0604FA4C2431871B0085AD4E /* chronote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chronote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604FA4C2431871B0085AD4E /* Chronote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0604FA4F2431871B0085AD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0604FA512431871B0085AD4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0604FA532431871B0085AD4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		0604FA4D2431871B0085AD4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0604FA4C2431871B0085AD4E /* chronote.app */,
+				0604FA4C2431871B0085AD4E /* Chronote.app */,
 				0604FA602431871D0085AD4E /* chronote WatchKit App.app */,
 				0604FA6F2431871D0085AD4E /* chronote WatchKit Extension.appex */,
 			);
@@ -211,7 +211,7 @@
 			);
 			name = chronote;
 			productName = chronote;
-			productReference = 0604FA4C2431871B0085AD4E /* chronote.app */;
+			productReference = 0604FA4C2431871B0085AD4E /* Chronote.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0604FA5F2431871D0085AD4E /* chronote WatchKit App */ = {
@@ -507,6 +507,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -531,6 +532,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -550,6 +552,7 @@
 				DEVELOPMENT_TEAM = CJCBD64FW3;
 				IBSC_MODULE = chronote_WatchKit_Extension;
 				INFOPLIST_FILE = "chronote WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -569,6 +572,7 @@
 				DEVELOPMENT_TEAM = CJCBD64FW3;
 				IBSC_MODULE = chronote_WatchKit_Extension;
 				INFOPLIST_FILE = "chronote WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -592,8 +596,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Chronote;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -612,8 +617,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ragtimekeys.chronote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Chronote;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
